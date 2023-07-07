@@ -1,0 +1,44 @@
+# Python configuration files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Development tool generated files
+.idea/
+.vscode/
+*.pydevproject
+
+# Log and output files
+*.log
+logs/
+*.pot
+*.pytest_cache/
+
+# Database
+*.sqlite3
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb~
+
+# Jupyter Notebook metadata
+*.nbconvert/
+*.ipynb-meta
+
+# Other files and folders
+*.bak
+*.swp
+.DS_Store
+
+# Dataset
+data/extracted/*
+data/raw/*
+!data/raw/download-raw-dataset.sh
+!data/raw/README.md
+
